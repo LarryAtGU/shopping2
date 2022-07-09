@@ -37,9 +37,7 @@ const Cart :React.FC<Props> = ({prods, addProd,decProd,addOrder}) => {
             >
             Add Order
         </Button>
-         :null
-        
-                }
+         :null   }
         </Wrapper>
     )
 }

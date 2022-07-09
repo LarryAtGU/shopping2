@@ -41,9 +41,7 @@ const getProducts = async () :Promise<Product[]> =>
 
 
 
-const viewOrders = () => {
 
-}
 
 const getTotalCartItem = (prods:Product[]) : number => {
   return prods.reduce((tot, prod)=> tot=tot+prod.amount,0)
